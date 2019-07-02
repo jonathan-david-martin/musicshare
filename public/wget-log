@@ -1,0 +1,11 @@
+--2019-07-01 00:09:13--  https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98
+Resolving boygeniusreport.files.wordpress.com (boygeniusreport.files.wordpress.com)... 192.0.72.19, 192.0.72.18
+Connecting to boygeniusreport.files.wordpress.com (boygeniusreport.files.wordpress.com)|192.0.72.19|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 244331 (239K) [image/jpeg]
+Saving to: ‘puppy-dog.jpg?quality=98’
+
+puppy-dog.jpg?quality=98                                                 0%[                                                                                                                                                                            ]       0  --.-KB/s               puppy-dog.jpg?quality=98                                                50%[=====================================================================================>                                                                                      ] 119.69K   514KB/s               puppy-dog.jpg?quality=98                                               100%[===========================================================================================================================================================================>] 238.60K   708KB/s    in 0.3s    
+
+2019-07-01 00:09:14 (708 KB/s) - ‘puppy-dog.jpg?quality=98’ saved [244331/244331]
+
