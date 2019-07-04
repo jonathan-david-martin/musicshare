@@ -13,4 +13,5 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::any('/posts', 'Api\InstagramController@create');
+Route::any('/posts', 'Api\InstagramController@post');
+Route::any('/posts/video', 'Api\InstagramController@postVideo');
