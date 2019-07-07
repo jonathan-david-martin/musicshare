@@ -35,7 +35,7 @@ class InstagramController extends ApiController
             } 
             catch (\Exception $e) 
             {
-                return $this->error('Something went wrong.');
+                return $this->error($e->getMessage());
             }
         }
         else return $this->error($validator->errors()->first());        
@@ -64,13 +64,14 @@ class InstagramController extends ApiController
                 }
 
                 $video = new \InstagramAPI\Media\Video\InstagramVideo(request()->get('fp'));
-                $ig->timeline->uploadVideo($photo->getFile(), ['caption' => request()->get('caption')]);
+                $ig->timeline->uploadVideo($video->getFile(), ['caption' => request()->get('caption')]);
 
                 return $this->success('Post sent.');
             } 
             catch (\Exception $e) 
             {
-                return $this->error('Something went wrong.');
+                dd($e);
+                return $this->error($e->getMessage());
             }
         }
         else return $this->error($validator->errors()->first());        
